@@ -1,0 +1,28 @@
+body{
+    background:#ddd;
+    margin:0;
+    padding:0;
+}
+header,
+main,
+section
+{
+    display:flex;
+    justify-content:center;
+    align-items: center; 
+}
+
+main,
+section{
+    flex-direction: column;  
+}
+
+section{
+    background : white;
+    padding:2%;
+    border-radius:10%;
+    margin:5px;
+    width:200px;
+    height:200px;
+    box-shadow: 2px 2px grey;
+}
